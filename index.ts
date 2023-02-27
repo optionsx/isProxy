@@ -16,5 +16,4 @@ export const isProxy = async (ip: string): Promise<ProxyData> => {
     throw new Error(err);
   }
 };
-
 export default isProxy;
