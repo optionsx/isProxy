@@ -1,6 +1,12 @@
-# is it a proxy passing by?
+# is it a proxy/vpn/tor passing by?
+## to run example.ts over the internet
+Install Deno [here](https://deno.land/#installation).
+```bash
+deno run --allow-net https://deno.land/x/isproxy/example.ts
+```
+### Usage
 ```js
-import isProxy from "https://deno.land/x/isproxy/index.ts";
+import isProxy from "https://deno.land/x/isproxy/mod.ts";
 const iipp = await isProxy("1.1.1.1");
 
 console.log(iipp);
