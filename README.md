@@ -1,5 +1,5 @@
 # is it a proxy/vpn/tor passing by?
-## to run example.ts over the internet
+### to run example.ts over the internet
 Install Deno [here](https://deno.land/#installation).
 ```bash
 deno run --allow-net https://deno.land/x/isproxy/example.ts
